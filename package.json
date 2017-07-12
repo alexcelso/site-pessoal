@@ -3,30 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-<<<<<<< HEAD
-    "bootstrap": "^3.3.7",
-    "jquery": "^3.2.1"
-  },
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0"
-=======
-    "bootstrap-sass": "^3.3.7",
-    "breakpoint-sass": "^2.7.1",
-    "font-awesome": "^4.7.0",
-    "graceful-fs": "^4.1.11",
-    "minimatch": "^3.0.4",
-    "ruby": "^0.6.1",
-    "sass": "^1.0.0-beta.1"
-  },
-  "devDependencies": {
-    "gem": "^2.4.2",
-    "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0",
-    "gulp-watch": "^4.3.11"
->>>>>>> html
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -39,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/alexmcmc/site-pessoal/issues"
   },
-  "homepage": "https://github.com/alexmcmc/site-pessoal#readme"
+  "homepage": "https://github.com/alexmcmc/site-pessoal#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-watch": "^4.3.11"
+  },
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "breakpoint-sass": "^2.7.1",
+    "font-awesome": "^4.7.0"
+  }
 }
