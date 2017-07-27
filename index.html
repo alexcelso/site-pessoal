@@ -6,6 +6,7 @@
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<link rel="stylesheet" href="css/geral.css">
 			<link rel="stylesheet" href="css/plugins.css">
+			<link rel="stylesheet" href="bower_components/wow/css/libs/animate.css">
 			<link rel="stylesheet" href="css/home.css">	
 		</head>
 		<body>
@@ -23,13 +24,13 @@
 					<div class="container">
 
 						<div class="logo wow slideInLeft" data-wow-duration="1s" data-wow-delay="1s">
-							<a href="#">
+							<a href="index.html">
 								<img src="imagem/logo-topo.png" alt="Logo Topo Tag">
 							</a>
 						</div>
 
 						<div class="links">
-							<nav>
+							<nav class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="2s">
 								<ul>	
 									<li><a href="index.html">Início</a></li>
 									<li><a href="sobre.html">Sobre</a></li>
@@ -92,7 +93,7 @@
 							<div class="textos">
 								<p><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipisicing elit. Aut in laborum, quos corrupti omnis ipsum reiciendis? Aspernatur, sequi eius! Nobis veniam eius autem dolores, doloribus deserunt est ex ea voluptatem.</p>
 
-								<a href="#" class="botao medio"><i class="fa fa-eye"></i> Continue Lendo</a>
+								<a href="sobre.html" class="botao medio"><i class="fa fa-eye"></i> Continue Lendo</a>
 							</div>
 						</div>
 					</section>
@@ -100,7 +101,7 @@
 
 				<footer>
 					<div class="logo-rodape">
-						<a href="">
+						<a href="index.html">
 							<img src="imagem/logo-rodape.png" alt="Logo TAG Rodapé">
 						</a>
 						<p>2017 Todos os Direitos Reservados</p>
@@ -109,6 +110,7 @@
 			</footer>
 		</div>
 		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="bower_components/wow/dist/wow.min.js"></script>
 		<script>
 			$(function(){
 				$('.toggle').click(function() {
@@ -116,6 +118,7 @@
 					$('.menu-responsivo').toggleClass('ativo');
 					$(this).toggleClass('ativo');
 				});
+				new WOW().init();
 
 			});
 		</script>
