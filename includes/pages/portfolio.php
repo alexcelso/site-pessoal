@@ -1,61 +1,4 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Criando um site responsivo do começo ao fim</title>
-		 <meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="css/geral.css">
-		<link rel="stylesheet" href="css/plugins.css">
-		 <link rel="stylesheet" href="css/portfolio.css">	
-	</head>
-	<body>
-		<div class="layout">
-			<header>
-				<div class="container">
-
-					<div class="logo wow slideInLeft" data-wow-duration="1s" data-wow-delay="1s">
-						<a href="index.html">
-							<img src="imagem/logo-topo.png" alt="Logo Topo Tag">
-						</a>
-					</div>
-
-					<div class="links">
-						<nav>
-							<ul>
-								<li><a href="index.html">Início</a></li>
-								<li><a href="sobre.html">Sobre</a></li>
-								<li><a href="portfolio.html">Portfolio</a></li>
-								<li><a href="contato.html">Contato</a></li>
-							</ul>
-						</nav>
-
-						<a class="toggle" href="javascript:;">
-							<span></span>
-							<span></span>
-							<span></span>
-						</a>
-
-					   <ul class="social">
-							<li class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
-								<a href="#"><i class="fa fa-facebook" target="_blank"></i></a>
-							</li>
-
-							<li class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.9s">
-								<a href="" target="_blank"><i class="fa fa-github-alt"></i></a>
-							</li>
-						</ul>
-					</div>
-
-					<h1> Meus <strong>Trabalhos</strong></h1>
-
-					<p>Lorem ipsum dolor sit amet.</p>
-
-				</div>
-				
-			</header>
-			
-			<main>
-			<section class="portfolio">
+<section class="portfolio">
 					<div class="container">
 						<ul>
 							<li>
@@ -161,16 +104,3 @@
                        
 					</div>
 				</section>
-			</main>
-			
-			<footer>
-				<div class="logo-rodape">
-					<a href="index.html">
-						<img src="imagem/logo-rodape.png" alt="Logo TAG Rodapé">
-					</a>
-					<p>2017 Todos os Direitos Reservados</p>
-				</div>
-			</footer>
-		</div>
-		</body>
-</html>
